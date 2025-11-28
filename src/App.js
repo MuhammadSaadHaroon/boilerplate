@@ -21,7 +21,7 @@ function App() {
       <Route path="/product/:id" element={user ? <ProductDetail /> : <Navigate to="/login" />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="*" element={<Navigate to="/login" />} />
+      <Route path="*" element={<Navigate to="/signup" />} />
     </Routes>
   );
 }
